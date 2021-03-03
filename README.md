@@ -28,6 +28,8 @@ https://github.com/thedigitalmenagerie
 
 Link to Loom video walkthrough of application:
 
+https://www.loom.com/share/2a02ea891557461daf631c6647ad9780
+
 Stretch Goals Achieved:
 
 ### Attribute Randomizer
