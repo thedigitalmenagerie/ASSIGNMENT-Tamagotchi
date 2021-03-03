@@ -1,8 +1,16 @@
 import '../styles/main.scss';
+import initialScreen from './components/initialScreen';
+import eatEgg from './components/eatevents';
+import funEgg from './components/playevents';
+import fightEgg from './components/fightevents';
+import sleepEgg from './components/sleepevents';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  initialScreen();
+  eatEgg();
+  funEgg();
+  fightEgg();
+  sleepEgg();
 };
 
 init();

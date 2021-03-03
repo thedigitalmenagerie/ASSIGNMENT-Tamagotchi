@@ -1,0 +1,57 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+#egg {
+  width: 272px;
+  height: 380px;
+  background: #A78FD6;
+  display: block;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-circle.btn-xl { 
+  width: 30px; 
+  height: 30px; 
+  border-radius: 30px; 
+  font-size: 8px; 
+  text-align: center; 
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #BFD4DB;
+  border-color: black;
+}
+
+
+.navButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 2em;
+  width: 125px;
+}
+
+.screenContainer {
+  background-color: #BFD4DB;;
+  width: 125px;
+  height: 116px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  text-align: center;
+}
+
+.navbar {
+  width: 125px;
+  height: 10px;
+  background-color:  #BFD4DB;
+}
