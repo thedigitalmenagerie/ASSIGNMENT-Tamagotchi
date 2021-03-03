@@ -18,7 +18,7 @@
   flex-direction: column;
 }
 
-.btn-circle.btn-xl { 
+#nap-btn { 
   width: 30px; 
   height: 30px; 
   border-radius: 30px; 
@@ -26,7 +26,19 @@
   text-align: center; 
   display: flex;
   justify-content: space-evenly;
-  background-color: #BFD4DB;
+  background-color: #FFAEBC;
+  border-color: black;
+}
+
+#slumber-btn { 
+  width: 30px; 
+  height: 30px; 
+  border-radius: 30px; 
+  font-size: 8px; 
+  text-align: center; 
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #FFAEBC;
   border-color: black;
 }
 
@@ -40,8 +52,8 @@
   width: 125px;
 }
 
-.screenContainer {
-  background-color: #BFD4DB;;
+#sleepScreenContainer {
+  background-color: #FFAEBC;
   width: 125px;
   height: 116px;
   border-style: solid;
@@ -50,8 +62,8 @@
   text-align: center;
 }
 
-.navbar {
+#sleepNav {
   width: 125px;
   height: 10px;
-  background-color:  #BFD4DB;
+  background-color: #FFAEBC;
 }

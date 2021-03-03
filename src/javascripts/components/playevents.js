@@ -28,10 +28,10 @@ const someFun = (e) => {
 const funEgg = () => {
   let domString = '';
   domString += `<div class="egg" id="egg">
-  <div class="screenContainer" id="screenContainer">
+  <div class="screenContainer" id="playScreenContainer">
   <div class="displayContainer" id="displayContainer">
   <div class="header" id="header">
-  <nav class="navbar navbar-light bg-custom border border-dark">
+  <nav class="navbar navbar-light bg-custom border border-dark" id="playNav">
   <a class="navbar-brand" href="index.html">
     <img src="" style:"width: 5em" alt="">
   </a>
@@ -60,7 +60,7 @@ const funEgg = () => {
   </div>
   </div>
   <div class="footer" id="footer">
-<nav class="navbar navbar-light bg-custom border border-dark">
+<nav class="navbar navbar-light bg-custom border border-dark" id="playNav">
   <a class="navbar-brand" href="sleep.html">
     <img src="" style:"width: 5em" alt="">
   </a>

@@ -31,10 +31,10 @@ const slumber = (e) => {
 const sleepEgg = () => {
   let domString = '';
   domString += `<div class="egg" id="egg">
-  <div class="screenContainer" id="screenContainer">
+  <div class="screenContainer" id="sleepScreenContainer">
   <div class="displayContainer" id="displayContainer">
   <div class="header" id="header">
-  <nav class="navbar navbar-light bg-custom border border-dark">
+  <nav class="navbar navbar-light bg-custom border border-dark" id="sleepNav">
   <a class="navbar-brand" href="index.html">
     <img src="" style:"width: 5em" alt="">
   </a>
@@ -65,7 +65,7 @@ const sleepEgg = () => {
   </div>
   </div>
   <div class="footer" id="footer">
-  <nav class="navbar navbar-light bg-custom border border-dark">
+  <nav class="navbar navbar-light bg-custom border border-dark" id="sleepNav">
     <a class="navbar-brand" href="sleep.html">
       <img src="" style:"width: 5em" alt="">
     </a>
